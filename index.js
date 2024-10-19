@@ -79,14 +79,9 @@ function UpdateFromCrestron(data) {
         RecievedCache.Serial[data.join] = data.value
     }
     FindProperty(data.type, data.join).then(async (Response) => {
-        console.log(1)
         if (typeof Response === "string") return;
-        console.log(2)
         if (!Response) return;
-        console.log(3)
-        console.log(data.value)
         if (data.value === 1) {
-            console.log(4)
             obs.call(Response.RequestType, Response.RequestData);
         }
 
