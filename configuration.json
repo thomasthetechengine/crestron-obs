@@ -1,0 +1,21 @@
+{
+    "CrestronConfig": {
+        "Host": "192.168.0.241",
+        "IPID": "03"
+    },
+    "OBSConfig": {
+        "Url": "ws://192.168.0.14:4455",
+        "Password": ""
+    },
+    "Debug": true,
+    "Joins": {
+        "D16": {
+            "RequestType": "SetCurrentProgramScene",
+            "RequestData": {"sceneName": "Crestron 1"}
+        },
+        "D17": {
+            "RequestType": "SetCurrentProgramScene",
+            "RequestData": {"sceneName": "Crestron 2"}
+        }
+    }
+}

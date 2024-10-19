@@ -1,0 +1,16 @@
+{
+  "name": "obsxcrest",
+  "version": "1.0.0",
+  "description": "Link Crestron to OBS via NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Hill",
+  "license": "MIT",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "obs-websocket-js": "^5.0.6",
+    "promisify-child-process": "^4.1.2"
+  }
+}
